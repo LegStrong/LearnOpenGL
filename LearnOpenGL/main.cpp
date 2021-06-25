@@ -3,6 +3,7 @@
 
 int main()
 {
-	HelloWindow();
+	//HelloWindow();
 	//HelloTriangle();
+	HelloWindowExercises();
 }

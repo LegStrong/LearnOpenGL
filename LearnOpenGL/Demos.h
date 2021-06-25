@@ -3,3 +3,5 @@
 
 int HelloWindow();
 int HelloTriangle();
+
+int HelloWindowExercises();
