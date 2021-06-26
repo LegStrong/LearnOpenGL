@@ -5,5 +5,6 @@ int main()
 {
 	//HelloWindow();
 	//HelloTriangle();
-	HelloWindowExercises();
+	//HelloWindowExercises();
+	Shaders();
 }
