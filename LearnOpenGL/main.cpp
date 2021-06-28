@@ -6,5 +6,6 @@ int main()
 	//HelloWindow();
 	//HelloTriangle();
 	//HelloWindowExercises();
-	Shaders();
+	//Shaders();
+	Textures();
 }
