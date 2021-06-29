@@ -1,5 +1,7 @@
 #include "Demos.h"
 
+#define STB_IMAGE_IMPLEMENTATION
+#include <stb_image.h>
 
 int main()
 {
@@ -7,5 +9,8 @@ int main()
 	//HelloTriangle();
 	//HelloWindowExercises();
 	//Shaders();
-	Textures();
+	//Textures();
+	//Transformations();
+	//CoordinateSystems();
+	Camera();
 }

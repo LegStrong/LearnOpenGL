@@ -37,7 +37,7 @@ int Shaders()
         return -1;
     }
 
-    Shader shader("3.3.shader.vs", "3.3.shader.fs");
+    Shader shader("shaders/3.3.shader.vs", "shaders/3.3.shader.fs");
 
     // set up vertex data (and buffer(s)) and configure vertex attributes
     float vertices[] = {
