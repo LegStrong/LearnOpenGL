@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\Lighting">
+      <UniqueIdentifier>{3f8e09a7-6c14-47fc-996c-794275b89e57}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="HelloWindow.cpp">
@@ -47,6 +50,12 @@
     </ClCompile>
     <ClCompile Include="Camera.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Lighting_Colors.cpp">
+      <Filter>源文件\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicLighting.cpp">
+      <Filter>源文件\Lighting</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -10,3 +10,6 @@ int Textures();
 int Transformations();
 int CoordinateSystems();
 int Camera();
+
+int Lighting_Colors();
+int Lighting_BasicLighting();

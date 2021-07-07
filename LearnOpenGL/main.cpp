@@ -12,5 +12,8 @@ int main()
 	//Textures();
 	//Transformations();
 	//CoordinateSystems();
-	Camera();
+	//Camera();
+
+	//Lighting_Colors();
+	Lighting_BasicLighting();
 }
