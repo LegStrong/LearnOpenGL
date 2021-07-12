@@ -122,8 +122,10 @@ int Lighting_BasicLighting()
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
 		glm::mat4 view = glm::mat4(1.f);
+
+		glm::vec3 viewPos = glm::vec3(0.f, 0.f, 5.f);
 		//view = glm::rotate(view, glm::radians(180.f), glm::vec3(0.f, 1.f, 0.f));
-		view = glm::translate(view, glm::vec3(0.f, 0.f, 5.f));
+		view = glm::translate(view, viewPos);
 		view = glm::inverse(view);
 		//view = glm::lookAt(glm::vec3(0, 0, 5), glm::vec3(0, 0, 0), glm::vec3(0, 1, 0));
 
@@ -147,12 +149,13 @@ int Lighting_BasicLighting()
 
 
 		model = glm::mat4(1.0f);
-		model = glm::rotate(model, 45.f, glm::vec3(0.f, 1.f, 0.f));
+		model = glm::rotate(model, (float)glfwGetTime(), glm::vec3(0.f, 1.f, 0.f));
 		shader_cube.use();
 		shader_cube.setMat4("model", model);
 		shader_cube.setMat4("view", view);
 		shader_cube.setMat4("project", project);
 		shader_cube.setVec3("lightPos", lightPos);
+		shader_cube.setVec3("viewPos", viewPos);
 
 		shader_cube.setVec3("lightColor", glm::vec3(1.f, 0.5f, 0.31f));
 		shader_cube.setVec3("color", glm::vec3(1.f, 1.f, 1.f));

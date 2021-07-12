@@ -160,6 +160,7 @@
     <ClCompile Include="Transformations.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Camera.h" />
     <ClInclude Include="Demos.h" />
     <ClInclude Include="Shader.h" />
   </ItemGroup>

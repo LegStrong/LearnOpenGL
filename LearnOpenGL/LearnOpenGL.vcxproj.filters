@@ -9,46 +9,25 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
+    <Filter Include="源文件\Lighting">
+      <UniqueIdentifier>{3f8e09a7-6c14-47fc-996c-794275b89e57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GettingStarted">
+      <UniqueIdentifier>{c1e97e5a-de3b-492f-8a70-d84984df8832}</UniqueIdentifier>
+    </Filter>
     <Filter Include="资源文件">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="源文件\Lighting">
-      <UniqueIdentifier>{3f8e09a7-6c14-47fc-996c-794275b89e57}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="HelloWindow.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="glad.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="HelloTriangle.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="HelloWindowExercises.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Shaders.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="Shader.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Textures.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Transformations.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="CoordinateSystems.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Camera.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Lighting_Colors.cpp">
@@ -57,12 +36,39 @@
     <ClCompile Include="BasicLighting.cpp">
       <Filter>源文件\Lighting</Filter>
     </ClCompile>
+    <ClCompile Include="CoordinateSystems.cpp">
+      <Filter>源文件\GettingStarted</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>源文件\GettingStarted</Filter>
+    </ClCompile>
+    <ClCompile Include="HelloTriangle.cpp">
+      <Filter>源文件\GettingStarted</Filter>
+    </ClCompile>
+    <ClCompile Include="HelloWindow.cpp">
+      <Filter>源文件\GettingStarted</Filter>
+    </ClCompile>
+    <ClCompile Include="HelloWindowExercises.cpp">
+      <Filter>源文件\GettingStarted</Filter>
+    </ClCompile>
+    <ClCompile Include="Transformations.cpp">
+      <Filter>源文件\GettingStarted</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders.cpp">
+      <Filter>源文件\GettingStarted</Filter>
+    </ClCompile>
+    <ClCompile Include="Textures.cpp">
+      <Filter>源文件\GettingStarted</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Shader.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Demos.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
